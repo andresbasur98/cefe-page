@@ -1,7 +1,11 @@
-import { Inter } from "next/font/google";
+import { Inter, Kumar_One } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+export const kumar = Kumar_One({
+  subsets: ['latin'],
+  weight: ['400']
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} p-5 md:p-[20px] lg:p-[25px]`}>{children}</body>
     </html>
   );
 }

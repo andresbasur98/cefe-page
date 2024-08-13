@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: #1a1b1f;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --background: #1a1b1f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,17 +14,19 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --background: #1a1b1f;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: var(--background);
+}
+
+.text-stroke {
+  -webkit-text-stroke: 5px #00c1fc;
+  filter: drop-shadow( 0px 0px 6px #00c1fc);
+
 }
 
 @layer utilities {
