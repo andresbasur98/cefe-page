@@ -6,18 +6,18 @@ export default function Home() {
   return (
     <>
       <h1
-        className={`${kumar.className} text-[70px] sm:text-[100px] lg:text-[160px] text-transparent  text-stroke text-shadow-lg shadow-slate-100	 `}
+        className={`${kumar.className} text-[56px] sm:text-[100px] lg:text-[160px] text-transparent  text-stroke text-shadow-lg shadow-slate-100`}
       >
         CBS
       </h1>
-      <div className="mt-[-40px]">
-        <div className="w-full h-2 rounded mt-2 bg-blue-700"></div>
-        <div className="w-full h-2 rounded mt-2 bg-yellow-300"></div>
-        <div className="w-full h-2 rounded mt-2 bg-green-700"></div>
-        <div className="w-full h-2 rounded mt-2 bg-red-700"></div>
+      <div className="mt-[-25px] sm:mt-[-40px]">
+        <div className="w-full h-1 sm:h-2 rounded mt-2 bg-blue-700"></div>
+        <div className="w-full h-1 sm:h-2 rounded mt-2 bg-yellow-300"></div>
+        <div className="w-full h-1 sm:h-2 rounded mt-2 bg-green-700"></div>
+        <div className="w-full h-1 sm:h-2 rounded mt-2 bg-red-700"></div>
       </div>
       <h1
-        className={`${kumar.className} text-[70px] sm:text-[100px] lg:text-[160px] text-transparent  text-stroke text-shadow-lg`}
+        className={`${kumar.className} text-[56px] sm:text-[100px] lg:text-[160px] text-transparent  text-stroke text-shadow-lg`}
       >
         ELECTRICA
       </h1>
