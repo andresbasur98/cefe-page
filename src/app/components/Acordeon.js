@@ -8,7 +8,7 @@ export const Acordeon = () => {
         key="1"
         aria-label="Accordion 1"
         title="INSTALACIONES ELECTRICAS"
-        className="text-[25px] sm:text-[30px] lg:text-[45px] outline-none"
+        className="text-[25px] sm:text-[30px] lg:text-[45px]"
       >
         <p className="text-sm sm:text-xl">
           En CBS Electrica, nos especializamos en ofrecer soluciones completas
