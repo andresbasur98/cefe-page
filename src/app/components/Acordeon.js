@@ -137,7 +137,7 @@ export const Acordeon = () => {
       <AccordionItem
         key="4"
         aria-label="Accordion 4"
-        title="Estructuras y Soportes para pantallas"
+        title="ESTRUCTURAS Y SOPORTES PARA PANTALLAS"
         className="text-[25px] sm:text-[30px] lg:text-[45px] outline-none"
       >
         <p className="text-sm sm:text-xl">
