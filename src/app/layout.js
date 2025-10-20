@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
           sizes="<generated>"
         />
       </head>
-      <body className={`${inter.className} p-5 md:p-[20px] lg:p-[25px]`}>
+      <body className={`${inter.className}`}>
         {children}
       </body>
     </html>
